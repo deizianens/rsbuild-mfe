@@ -1,0 +1,14 @@
+import React from 'react'
+import { I{{pascalCase name}}Props } from './{{pascalCase name}}.types'
+import * as Styled from './{{pascalCase name}}.styles'
+
+const {{pascalCase name}}: React.FC<I{{pascalCase name}}Props> = ({
+  className,
+  'data-testid': dataTestid,
+}) => (
+  <Styled.Wrapper className={className} data-testid={dataTestid}>
+    <h1>{{pascalCase name}}</h1>
+  </Styled.Wrapper>
+)
+
+export default {{pascalCase name}}

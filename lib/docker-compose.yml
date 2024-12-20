@@ -1,0 +1,8 @@
+version: "3.2"
+services:
+  story-book:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./environments/nginx.conf:/etc/nginx/conf.d/nginx.conf
